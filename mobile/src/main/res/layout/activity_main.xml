@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    tools:context="com.jinhao.test.bluetouch_1.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/btnOpenBlueTooth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="打开蓝牙"
+        android:onClick="onEnableButtonClicked">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnCloseBlueTooth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭蓝牙"
+        android:onClick="onDisableButtonClicked"
+>
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnFindBlueTooth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="允许搜索"
+        android:onClick="onMakeDiscoveryButtonClicked"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnBeginFindBlueTooth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始搜索"
+        android:onClick="onStarDiscoveryButtonClicked"
+        >
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnSocket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="客户端"
+        android:onClick="onOpenClientSockeButtonClicked"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnServerSocket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="服务器端"
+        android:onClick="onOpenServerSocketButtonClicked"
+        >
+
+
+</Button>
+
+
+    <Button
+        android:id="@+id/btnOBEXServerSocket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OBEX服务器"
+        android:onClick="onOpenOBEXServerSocketButtonClicked"
+        >
+    </Button>
+</LinearLayout>
